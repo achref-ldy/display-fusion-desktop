@@ -1,0 +1,18 @@
+# Text file normalization
+# Normalize line endings
+# Project-specific overrides
+src/**/*.tsx linguist-detectable
+
+* text=auto
+*.svg text
+*.woff binary
+
+*.min.js linguist-generated  
+*.yaml linguist-detectable=false
+build/* linguist-vendored
+*.ts linguist-detectable   
+
+public/*.html linguist-vendored
+public/* linguist-vendored
+
+# eof b3675924
